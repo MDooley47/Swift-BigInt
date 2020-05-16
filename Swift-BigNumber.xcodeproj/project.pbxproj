@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		349ECF7E246FF0BD00F08C65 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349ECF7D246FF0BD00F08C65 /* Package.swift */; };
 		AE8388AF203F1CB000FAC88F /* BigNumber.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE8388A6203F1CAF00FAC88F /* BigNumber.framework */; };
 		AE8388B4203F1CB000FAC88F /* BigNumber_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8388B3203F1CB000FAC88F /* BigNumber_iOSTests.swift */; };
 		AE8388BD203F1CC800FAC88F /* Swift-Big-Number-Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F92B421D0F7452003CDF7D /* Swift-Big-Number-Core.swift */; };
@@ -77,6 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		349ECF7D246FF0BD00F08C65 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		AE8388A6203F1CAF00FAC88F /* BigNumber.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigNumber.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8388AE203F1CB000FAC88F /* BigNumber-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BigNumber-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8388B3203F1CB000FAC88F /* BigNumber_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNumber_iOSTests.swift; sourceTree = "<group>"; };
@@ -154,6 +156,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		349ECF7F246FF12100F08C65 /* BigInteger */ = {
+			isa = PBXGroup;
+			children = (
+				C2F92B421D0F7452003CDF7D /* Swift-Big-Number-Core.swift */,
+			);
+			path = BigInteger;
+			sourceTree = "<group>";
+		};
 		AE8388B2203F1CB000FAC88F /* BigNumber-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +202,7 @@
 		C29F6AE51FEB1BE900AD0478 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C2F92B421D0F7452003CDF7D /* Swift-Big-Number-Core.swift */,
+				349ECF7F246FF12100F08C65 /* BigInteger */,
 				F64629571FF017EA0074A180 /* Info.plist */,
 			);
 			path = Sources;
@@ -231,6 +241,7 @@
 		C2F92B2F1D0F7421003CDF7D = {
 			isa = PBXGroup;
 			children = (
+				349ECF7D246FF0BD00F08C65 /* Package.swift */,
 				C2F92B3B1D0F7421003CDF7D /* main.swift */,
 				C29F6AE71FEB1C5100AD0478 /* Benchmarks */,
 				C29F6AE61FEB1C2B00AD0478 /* Tools */,
@@ -482,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349ECF7E246FF0BD00F08C65 /* Package.swift in Sources */,
 				C26B2728207E5C29008FA649 /* MG Benchmark Tools.swift in Sources */,
 				C26B2729207E5C29008FA649 /* MG Math.swift in Sources */,
 				C26B272A207E5C29008FA649 /* MG SuperSwift.swift in Sources */,
